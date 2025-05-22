@@ -632,6 +632,33 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@benchling/eslint-plugin-no-lookahead-lookbehind-regexp@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@benchling/eslint-plugin-no-lookahead-lookbehind-regexp@workspace:."
+  dependencies:
+    "@types/benchmark": "npm:^2.1.1"
+    "@types/browserslist": "npm:^4.15.0"
+    "@types/caniuse-lite": "npm:^1.0.5"
+    "@types/eslint": "npm:^9.6.1"
+    "@types/jest": "npm:^29.5.13"
+    "@typescript-eslint/parser": "npm:^5.4.0"
+    benchmark: "npm:^2.1.4"
+    browserslist: "npm:^4.24.2"
+    caniuse-lite: "npm:^1.0.30001669"
+    eslint: "npm:^9.13.0"
+    eslint-config-prettier: "npm:^9.1.0"
+    eslint-plugin-eslint-plugin: "npm:^6.2.0"
+    eslint-plugin-prettier: "npm:^5.2.1"
+    jest: "npm:^29.7.0"
+    prettier: "npm:^2.5.0"
+    ts-jest: "npm:^29.2.5"
+    ts-node: "npm:^10.4.0"
+    typescript: "npm:^5.6.3"
+  peerDependencies:
+    eslint: ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0 || ^9.0.0
+  languageName: unknown
+  linkType: soft
+
 "@cspotcode/source-map-consumer@npm:0.8.0":
   version: 0.8.0
   resolution: "@cspotcode/source-map-consumer@npm:0.8.0"
@@ -2249,33 +2276,6 @@ __metadata:
   checksum: 10c0/33f27062aaa93ec61eb1f80daf7d967fe4e63ace44abb3954f1c893fe416019e6e267cc4b748bf93afc44b705d6c36597a4c7d20da4251cebf872c24d1cc700d
   languageName: node
   linkType: hard
-
-"eslint-plugin-no-lookahead-lookbehind-regexp@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "eslint-plugin-no-lookahead-lookbehind-regexp@workspace:."
-  dependencies:
-    "@types/benchmark": "npm:^2.1.1"
-    "@types/browserslist": "npm:^4.15.0"
-    "@types/caniuse-lite": "npm:^1.0.5"
-    "@types/eslint": "npm:^9.6.1"
-    "@types/jest": "npm:^29.5.13"
-    "@typescript-eslint/parser": "npm:^5.4.0"
-    benchmark: "npm:^2.1.4"
-    browserslist: "npm:^4.24.2"
-    caniuse-lite: "npm:^1.0.30001669"
-    eslint: "npm:^9.13.0"
-    eslint-config-prettier: "npm:^9.1.0"
-    eslint-plugin-eslint-plugin: "npm:^6.2.0"
-    eslint-plugin-prettier: "npm:^5.2.1"
-    jest: "npm:^29.7.0"
-    prettier: "npm:^2.5.0"
-    ts-jest: "npm:^29.2.5"
-    ts-node: "npm:^10.4.0"
-    typescript: "npm:^5.6.3"
-  peerDependencies:
-    eslint: ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0 || ^9.0.0
-  languageName: unknown
-  linkType: soft
 
 "eslint-plugin-prettier@npm:^5.2.1":
   version: 5.2.1
