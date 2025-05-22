@@ -16,3 +16,8 @@ node_modules/
 
 CODE_OF_CONDUCT.md
 README.md
+
+# Benchling-specific
+.npmrc
+.yarnrc
+yarn_env
